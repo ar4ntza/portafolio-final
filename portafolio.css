@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Francois+One&family=Montserrat:ital,wght@1,700&family=Press+Start+2P&display=swap');
+
+.layout {
+    width: 100%;
+  
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px 15px;
+}
+.layout2 {
+    width: 100%;
+  
+    display: flex;
+    gap: 16px;
+  
+    align-items: center;
+}
+
+*{
+    padding: auto;
+    margin: auto;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fefcff
+}
+
+h1{
+    text-align: center;
+    font-family: "Press Start 2P",  cursive;
+    padding: 10px 8%;
+    font-size: 30px;
+    color: deeppink;
+}
+
+h2{
+    text-align: center;
+    font-family: "Press Start 2P",  cursive;
+    padding: 10px 8%;
+    font-size: 18px;
+    color:darkslateblue
+}
+
+p{
+    text-align: center;
+    font-family: "DotGothic16", sans-serif;
+    padding: 10px 8%;
+    font-size: 15px;
+    color: black; 
+}
+
+.nyan {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d {
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.presentacion { 
+
+    width: 450px;
+    height: 450px;
+    border-radius: 10%;
+    align-items: center;
+}
+
+.presentacion2 { 
+
+    width: 350px;
+    height: 350px;
+    border-radius: 10%;
+    align-items: center;
+}
